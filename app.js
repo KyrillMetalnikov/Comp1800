@@ -27,7 +27,7 @@ function clearMovies() {
 }
 
 function updateMovieHistory(movie) {
-
+	// updates the movie history table upon new input
     var myTable= `
     <h5 class="card-title">Movie History</h5>
     <table id="movieHistoryTable">
